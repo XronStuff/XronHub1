@@ -1,0 +1,20 @@
+  local Hub = {
+     [340809482] = {
+        [1] = "https://raw.githubusercontent.com/XronStuff/XronHub1/main/Limited%20simulator",
+   },
+     [286090429] = {
+        [1] = "https://raw.githubusercontent.com/XronStuff/XronHub1/main/Orsenal",
+   },
+     [6859865958] = {
+        [1] = "https://raw.githubusercontent.com/XronStuff/XronHub1/main/Youtuber%20Simulator",
+   },
+}
+
+for i,v in pairs(Hub) do
+    if i == game.PlaceId then
+        print("CheckScript")
+           loadstring(game:HttpGet(v[1]))()
+        else
+        
+        end
+    end
