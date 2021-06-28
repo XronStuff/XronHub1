@@ -1,11 +1,10 @@
-  local Hub = {
+ local Hub = {
      [340809482] = {
         [1] = "https://raw.githubusercontent.com/XronStuff/XronHub1/main/Limited%20simulator",
    },
      [286090429] = {
         [1] = "https://raw.githubusercontent.com/XronStuff/XronHub1/main/Orsenal",
    },
-      },
      [2580982329] = {
         [1] = "https://raw.githubusercontent.com/XronStuff/XronHub1/main/Texting%20Simulator",
    },
@@ -20,5 +19,4 @@ for i,v in pairs(Hub) do
            loadstring(game:HttpGet(v[1]))()
         else
         
-        end
-    end
+        en
